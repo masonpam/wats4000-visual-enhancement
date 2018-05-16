@@ -46,8 +46,8 @@
 import axios from 'axios';
 // Note: vue2-animate is added using the require statement because it is a CSS file
 require('vue2-animate/dist/vue2-animate.min.css');
-import CubeSpinner from '/@components/CubeSpinner';
-import MessageContainer from '/@components/MessageContainer';
+import CubeSpinner from '@/components/CubeSpinner';
+import MessageContainer from '@/components/MessageContainer';
 
 export default {
   name: 'WordSearch',
